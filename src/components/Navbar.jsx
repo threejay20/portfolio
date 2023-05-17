@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { logo, menu, close } from '../assets';
+import { logo, logoblack, menu, close } from '../assets';
 const Navbar = () => {
   const [active, setActive] = useState('')
 
@@ -16,7 +16,9 @@ const Navbar = () => {
         window.scrollTo(0, 0);
       }}>
 
-        <img scr={logo} alt="logo" className="w-9 h-9 object-contain"/>
+        <img src={logoblack} alt="logo" className="w-10 h-10 object-contain"/>
+        <p className='text-white text-[18px] font-bold cursor-pointer'>Scarlet Rosa
+          <span className='sm:block hidden'>| Full Stack Developer</span></p>
       </Link>
     </div>
 
