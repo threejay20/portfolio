@@ -1,8 +1,4 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
     game,
     student,
     tattoo,
@@ -48,9 +44,9 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    etrivial,
+    ggt,
+    vet,
     
 } from "../assets";
 
@@ -227,16 +223,16 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "E-trivial",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Accompaniment of the board game in a mobile version, made in Vue3, digitizing the questions to keep them always updated through the Trivial API.",
         tags: [
             {
-                name: "react",
+                name: "vue3",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "api",
                 color: "green-text-gradient",
             },
             {
@@ -244,41 +240,41 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: etrivial,
+        source_code_link: "https://github.com/TrivialF5/eTrivial",
     },
     {
-        name: "Job IT",
+        name: "GG Tournaments",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Game themed web application where events related to the world of e-sports can be published.",
         tags: [
             {
-                name: "react",
+                name: "laravel",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "mysql",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "tailwind",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: ggt,
+        source_code_link: "https://github.com/skyrosa/joc-project",
     },
     {
-        name: "Trip Guide",
+        name: "Vet Code",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "VetCode is an application created for scheduling appointments at the reception desk of a veterinary clinic. In the application, you can create, save, edit and delete appointments that are kept reserved in a private database",
         tags: [
             {
-                name: "nextjs",
+                name: "php",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "javascript",
                 color: "green-text-gradient",
             },
             {
@@ -286,8 +282,8 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: vet,
+        source_code_link: "https://github.com/skyrosa/VetCode",
     },
 ];
 

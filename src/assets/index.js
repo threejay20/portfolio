@@ -1,8 +1,4 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
 import game from "./game.png";
 import student from "./student.png";
 import tattoo from "./tattoo.png";
@@ -25,7 +21,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import html5 from "./tech/html5.png";
+import html5 from "./tech/html5.png"; 
 import bootstrap from "./tech/bootstrap.png";
 import java from "./tech/java.png";
 import jenkins from "./tech/jenkins.png";
@@ -49,16 +45,12 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import etrivial from "./etrivial.png";
+import vet from "./vet.png";
+import ggt from "./ggt.png";
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
   game,
   student,
   tattoo,
@@ -104,7 +96,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  etrivial,
+  ggt,
+  vet,
 };

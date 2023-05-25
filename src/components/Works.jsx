@@ -18,7 +18,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           scale: 1,
           speed: 450
         }}
-        className="bg-tertiary p-5 rounded-2xl sm: w-[360px] w-full mb-36"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full mb-36"
       >
         <div className='relative w-full h-[230px]'>
           <img
@@ -82,7 +82,7 @@ const Works = () => {
           <p>&emsp;</p>
           Each project is briefly described at the github with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.
           <p>&emsp;</p>
-          You can see the source code by clicking on the github logo or go directly to the site, if available online, by clicking on the button beside. 
+          You can see the source code by clicking on the github logo. 
         </motion.p>
       </div>
 
