@@ -1,3 +1,4 @@
+import React from "react";
 import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
@@ -17,19 +18,19 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           scale: 1,
           speed: 450
         }}
-        className="flex-3 bg-terciary p-5 rounded-2xl sm: w-[360px] w-full mb-36 flex-1"
+        className="bg-tertiary p-5 rounded-2xl sm: w-[360px] w-full mb-36"
       >
         <div className='relative w-full h-[230px]'>
           <img
             src={image}
-            alt={name}
+            alt='project_image'
             className='w-full h-full object-cover rounded-2xl'
           />
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
 
             <div
-              onClick={() => window.open(source_code_link, "blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'>
+              onClick={() => window.open(source_code_link, "_blank")}
+              className='bg-gradient-to-t from-purple-800 to-pink-500 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'>
               <img
                 src={github}
                 alt="github"
@@ -85,7 +86,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='flex flex-wrap gap-7'>
+      <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
           <ProjectCard
             key={`project-${index}`}
