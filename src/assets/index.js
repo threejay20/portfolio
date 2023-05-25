@@ -44,6 +44,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import coursera from "./company/coursera.png";
+import factoria from "./company/factoria.png";
+import inkor from "./company/inkor.png";
 
 import etrivial from "./etrivial.png";
 import vet from "./vet.png";
@@ -96,6 +99,9 @@ export {
   shopify,
   starbucks,
   tesla,
+  inkor,
+  factoria,
+  coursera,
   etrivial,
   ggt,
   vet,

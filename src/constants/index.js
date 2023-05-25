@@ -43,6 +43,9 @@ import {
     meta,
     starbucks,
     tesla,
+    coursera,
+    factoria,
+    inkor,
     shopify,
     etrivial,
     ggt,
@@ -143,7 +146,7 @@ const experiences = [
     {
         title: "Full Stack Developer Bootcamp",
         company_name: "Factoria F5",
-        icon: tesla,
+        icon: factoria,
         iconBg: "#DF01A5",
         date: "Feb 2022 - Ago 2022",
         points: [
@@ -156,7 +159,7 @@ const experiences = [
     {
         title: "Google IT Support Professional Course",
         company_name: "Coursera Google",
-        icon: shopify,
+        icon: coursera,
         iconBg: "#FF00BF",
         date: "Apr 2022 - Oct 2023",
         points: [
@@ -170,7 +173,7 @@ const experiences = [
     {
         title: "Java Backend Bootcamp",
         company_name: "Inkor Formación",
-        icon: meta,
+        icon: inkor,
         iconBg: "#DF01A5",
         date: "Nov 2022 - Mar 2023",
         points: [
@@ -184,7 +187,7 @@ const experiences = [
     {
         title: "Unity Game Programming",
         company_name: "Unity Learn",
-        icon: starbucks,
+        icon: unity,
         iconBg: "#DF01A5",
         date: "Mar 2023 - Today",
         points: [
