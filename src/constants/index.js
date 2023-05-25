@@ -7,18 +7,42 @@ import {
     student,
     tattoo,
     webb,
-    javascript,
-    typescript,
-    html,
+
+    github,
+    menu,
+    close,
     css,
+    docker,
+    figma,
+    git,
+    html,
+    html5,
+    bootstrap,
+    java,
+    jenkins,
+    jest,
+    jquery,
+    json,
+    javascript,
+    kubernetes,
+    laravel,
+    linux,
+    mongodb,
+    mysql,
+    nodejs,
+    php,
+    powershell,
     reactjs,
     redux,
+    sass,
     tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
+    typescript,
+    threejs,
+    unity,
+    vue,
+    windows,
+    xampp,
+
     meta,
     starbucks,
     tesla,
@@ -26,7 +50,7 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
+    
 } from "../assets";
 
 export const navLinks = [
@@ -66,15 +90,7 @@ const services = [
 const technologies = [
     {
         name: "HTML 5",
-        icon: html,
-    },
-    {
-        name: "CSS 3",
-        icon: css,
-    },
-    {
-        name: "JavaScript",
-        icon: javascript,
+        icon: html5,
     },
     {
         name: "TypeScript",
@@ -85,10 +101,6 @@ const technologies = [
         icon: reactjs,
     },
     {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
-    {
         name: "Tailwind CSS",
         icon: tailwind,
     },
@@ -97,24 +109,40 @@ const technologies = [
         icon: nodejs,
     },
     {
-        name: "MongoDB",
-        icon: mongodb,
-    },
-    {
-        name: "Three JS",
-        icon: threejs,
-    },
-    {
-        name: "git",
+        name: "Git",
         icon: git,
     },
     {
-        name: "figma",
-        icon: figma,
+        name: "Docker",
+        icon: docker,
     },
     {
-        name: "docker",
-        icon: docker,
+        name: "Java",
+        icon: java,
+    },
+    {
+        name: "Jenkins",
+        icon: jenkins,
+    },
+    {
+        name: "mySql",
+        icon: mysql,
+    },
+    {
+        name: "php",
+        icon: php,
+    },
+    {
+        name: "SaSS",
+        icon: sass,
+    },
+    {
+        name: "Unity",
+        icon: unity,
+    },
+    {
+        name: "Vue",
+        icon: vue,
     },
 ];
 

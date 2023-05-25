@@ -24,6 +24,24 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import html5 from "./tech/html5.png";
+import bootstrap from "./tech/bootstrap.png";
+import java from "./tech/java.png";
+import jenkins from "./tech/jenkins.png";
+import jest from "./tech/jest.png";
+import jquery from "./tech/jquery.png";
+import json from "./tech/json.png";
+import kubernetes from "./tech/kubernetes.png";
+import laravel from "./tech/laravel.png";
+import linux from "./tech/linux.png";
+import mysql from "./tech/mysql.png";
+import php from "./tech/php.png";
+import powershell from "./tech/powershell.png";
+import sass from "./tech/sass.png";
+import unity from "./tech/unity.png";
+import vue from "./tech/vue.png";
+import windows from "./tech/windows.png";
+import xampp from "./tech/xampp.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -44,6 +62,7 @@ export {
   student,
   tattoo,
   webb,
+
   github,
   menu,
   close,
@@ -52,14 +71,33 @@ export {
   figma,
   git,
   html,
+  html5,
+  bootstrap,
+  java,
+  jenkins,
+  jest,
+  jquery,
+  json,
   javascript,
+  kubernetes,
+  laravel,
+  linux,
   mongodb,
+  mysql,
   nodejs,
+  php,
+  powershell,
   reactjs,
   redux,
+  sass,
   tailwind,
   typescript,
   threejs,
+  unity,
+  vue,
+  windows,
+  xampp,
+
   meta,
   shopify,
   starbucks,
