@@ -40,10 +40,6 @@ import vue from "./tech/vue.png";
 import windows from "./tech/windows.png";
 import xampp from "./tech/xampp.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import coursera from "./company/coursera.png";
 import factoria from "./company/factoria.png";
 import inkor from "./company/inkor.png";
@@ -95,10 +91,6 @@ export {
   windows,
   xampp,
 
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   inkor,
   factoria,
   coursera,

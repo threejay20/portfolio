@@ -40,13 +40,9 @@ import {
     windows,
     xampp,
 
-    meta,
-    starbucks,
-    tesla,
     coursera,
     factoria,
     inkor,
-    shopify,
     etrivial,
     ggt,
     vet,
