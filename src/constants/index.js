@@ -7,6 +7,7 @@ import {
     student,
     tattoo,
     webb,
+    me,
 
     github,
     menu,
@@ -107,10 +108,6 @@ const technologies = [
     {
         name: "Node JS",
         icon: nodejs,
-    },
-    {
-        name: "Git",
-        icon: git,
     },
     {
         name: "Docker",

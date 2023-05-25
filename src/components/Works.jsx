@@ -46,10 +46,10 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
 
           <div className='mt-4 flex flex-wrap gap-2'>
             {tags.map((tag) => (
-            <p key={tag.name} className={`text-[14px] ${tag.color}`}>
-              #{tag.name}
-            </p>
-            ))} 
+              <p key={tag.name} className={`text-[14px] ${tag.color}`}>
+                #{tag.name}
+              </p>
+            ))}
           </div>
 
         </div>
@@ -78,11 +78,11 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          The following are examples of projects that I developed in group with my Bootcamp mates while I was studying, and also solo projects that I developed by putting together my own ideas and tutorials.
+          <p>&emsp;</p>
+          Each project is briefly described at the github with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.
+          <p>&emsp;</p>
+          You can see the source code by clicking on the github logo or go directly to the site, if available online, by clicking on the button beside. 
         </motion.p>
       </div>
 
