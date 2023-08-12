@@ -30,9 +30,9 @@ import Bell_logo from "./company/Bell_logo.png";
 import Lyriks from "./tech/Lyriks.png";
 import Title_Exercise from "./tech/Title_Exercise.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+// import carrent from "./carrent.png";
+// import jobit from "./jobit.png";
+// import tripguide from "./tripguide.png";
 import Finanseer from "./tech/Finanseer.png";
 import AdminApp from "./tech/AdminApp.png";
 import RealEstateApp from "./tech/RealEstateApp.png";
@@ -63,9 +63,9 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  // carrent,
+  // jobit,
+  // tripguide,
   Bell_logo,
   Lyriks,
   Title_Exercise,
