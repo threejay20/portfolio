@@ -1,291 +1,318 @@
 import {
-    game,
-    student,
-    tattoo,
-    webb,
-    me,
-
-    github,
-    menu,
-    close,
-    css,
-    docker,
-    figma,
-    git,
-    html,
-    html5,
-    bootstrap,
-    java,
-    jenkins,
-    jest,
-    jquery,
-    json,
+    mobile,
+    backend,
+    creator,
+    web,
     javascript,
-    kubernetes,
-    laravel,
-    linux,
-    mongodb,
-    mysql,
-    nodejs,
-    php,
-    powershell,
+    typescript,
+    html,
+    css,
     reactjs,
     redux,
-    sass,
     tailwind,
-    typescript,
+    nodejs,
+    mongodb,
+    git,
+    figma,
+    docker,
     threejs,
-    unity,
-    vue,
-    windows,
-    xampp,
-
-    coursera,
-    factoria,
-    inkor,
-    etrivial,
-    ggt,
-    vet,
-    
-} from "../assets";
-
-export const navLinks = [
+    Bell_logo,
+    Lyriks,
+    Title_Exercise,
+    Finanseer,
+    AdminApp,
+    RealEstateApp,
+  } from "../assets";
+  
+  export const navLinks = [
     {
-        id: "about",
-        title: "About",
+      id: "about",
+      title: "About",
     },
     {
-        id: "work",
-        title: "Work",
+      id: "work",
+      title: "Work",
     },
     {
-        id: "contact",
-        title: "Contact",
+      id: "contact",
+      title: "Contact",
     },
-];
-
-const services = [
+  ];
+  
+  const services = [
     {
-        title: "Web Developer",
-        icon: webb,
-    },
-    {
-        title: "Game Developer",
-        icon: game,
+      title: "Web Developer",
+      icon: web,
     },
     {
-        title: "Programmer Student",
-        icon: student,
+      title: "React Native Developer",
+      icon: mobile,
     },
     {
-        title: "Tattoo Artist",
-        icon: tattoo,
-    },
-];
-
-const technologies = [
-    {
-        name: "HTML 5",
-        icon: html5,
+      title: "Backend Developer",
+      icon: backend,
     },
     {
-        name: "TypeScript",
-        icon: typescript,
+      title: "Content Creator",
+      icon: creator,
+    },
+  ];
+  
+  const technologies = [
+    {
+      name: "HTML 5",
+      icon: html,
     },
     {
-        name: "React JS",
-        icon: reactjs,
+      name: "CSS 3",
+      icon: css,
     },
     {
-        name: "Tailwind CSS",
-        icon: tailwind,
+      name: "JavaScript",
+      icon: javascript,
     },
     {
-        name: "Node JS",
-        icon: nodejs,
+      name: "TypeScript",
+      icon: typescript,
     },
     {
-        name: "Docker",
-        icon: docker,
+      name: "React JS",
+      icon: reactjs,
     },
     {
-        name: "Java",
-        icon: java,
+      name: "Redux Toolkit",
+      icon: redux,
     },
     {
-        name: "Jenkins",
-        icon: jenkins,
+      name: "Tailwind CSS",
+      icon: tailwind,
     },
     {
-        name: "mySql",
-        icon: mysql,
+      name: "Node JS",
+      icon: nodejs,
     },
     {
-        name: "php",
-        icon: php,
+      name: "MongoDB",
+      icon: mongodb,
     },
     {
-        name: "SaSS",
-        icon: sass,
+      name: "Three JS",
+      icon: threejs,
     },
     {
-        name: "Unity",
-        icon: unity,
+      name: "git",
+      icon: git,
     },
     {
-        name: "Vue",
-        icon: vue,
-    },
-];
-
-const experiences = [
-    {
-        title: "Full Stack Developer Bootcamp",
-        company_name: "Factoria F5",
-        icon: factoria,
-        iconBg: "#DF01A5",
-        date: "Feb 2022 - Ago 2022",
-        points: [
-            "Agile Methodology: Project methodology through group management tools, Collaborative work, Iterative and incremental development,Test Driven Development (TDD).",
-            "UX/UI: User Experience (UX), Component-based interface design (UI), Prototyping and user testing, Knowledge of Design tools",
-            "Front-end : Responsive web design and layout, Web development with HTML/CSS, Javascript and PHP frameworks and reactive programming.",
-            "Back-end: Use of object-oriented languages, Design and implementation of REST APIs, Database development, Introduction of TEST.",
-        ],
+      name: "figma",
+      icon: figma,
     },
     {
-        title: "Google IT Support Professional Course",
-        company_name: "Coursera Google",
-        icon: coursera,
-        iconBg: "#FF00BF",
-        date: "Apr 2022 - Oct 2023",
-        points: [
-            "Basics of Technical Assistance in Technological field. The different facets of information technology such as computer hardware and software, the Internet, troubleshooting and customer service.",
-            "The bits and bytes of Computer Networks. The fundamentals of modern networking technologies and protocols to an overview of the cloud, practical applications and network troubleshooting",
-            "Operating Systems: Becoming an Advanced User. The main components of an operating system and how to perform critical tasks such as managing software and users, and configuring hardware",
-            "IT infrastructure Systems and Services Management. The infrastructure services that keep all organizations, large and small, up and running. cloud configurations, infrastructure and resource management",
-            "Cyber security: Defense against digital dark arts. The three information security systems: authentication, authorization and accounting. Network security solutions, ranging from firewalls to Wi-Fi encryption options.",
-        ],
+      name: "docker",
+      icon: docker,
+    },
+  ];
+  
+  const experiences = [
+    // {
+    //   title: "React.js Developer",
+    //   company_name: "Starbucks",
+    //   icon: starbucks,
+    //   iconBg: "#383E56",
+    //   date: "March 2020 - April 2021",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
+    // {
+    //   title: "React Native Developer",
+    //   company_name: "Tesla",
+    //   icon: tesla,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2021 - Feb 2022",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
+    // {
+    //   title: "Web Developer",
+    //   company_name: "Shopify",
+    //   icon: shopify,
+    //   iconBg: "#383E56",
+    //   date: "Jan 2022 - Jan 2023",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
+    {
+      title: "Full Stack Developer",
+      company_name: "Bell Canada",
+      icon: Bell_logo,
+      iconBg: "#E6DEDD",
+      date: "March 2023 - Present",
+      points: [
+        "Directed full-stack web application development using HTML, JavaScript, CSS, and Java, ensuring high-quality code delivery.",
+        "Collaborated with cross-functional teams to design and implement scalable software solutions,fostering innovation.",
+        "Implemented comprehensive code review processes to maintain code quality standards.",
+        "Actively participated in Agile development processes, ensuring streamlined project execution.",
+      ],
+    },
+  ];
+  
+  const testimonials = [
+    {
+      testimonial:
+        "I thought it was impossible to make a website as beautiful as our product, but Justin proved me wrong.",
+      name: "Sara Lee",
+      // designation: "CFO",
+      // company: "Acme Co",
+      image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
-        title: "Java Backend Bootcamp",
-        company_name: "Inkor Formación",
-        icon: inkor,
-        iconBg: "#DF01A5",
-        date: "Nov 2022 - Mar 2023",
-        points: [
-            "Fundamental concepts such as data, algorithms and programs are learned, as well as programming paradigms and programming languages. Program quality is addressed and development tools and environments are explored.",
-            "The structure and fundamental building blocks of Java, including characters, data types, literals and identifiers, such as variables, memory storage, constants and type conversions.",
-            "History and basic principles of object orientation. Classes, objects and the creation of attributes, methods and constructors are explored. Analyzing access control and the use of inner classes.",
-            "Characteristics, constructors and object instantiation. Comparison of objects, use of methods, handling of parameters and return values, and employability of static methods and predefined classes, destruction of objects and the release of memory.",
-            "Use of control structures and exception handling, selection, repetition and jump structures. Exception handling, exception hierarchies and the use of assertions. Advanced class control, such as inheritance, method overwriting, polymorphism, interfaces and generic classes and types.",
-        ],
+      testimonial:
+        "I've never met a web developer who truly cares about their clients' success like Justin does.",
+      name: "Chris Brown",
+      // designation: "COO",
+      // company: "DEF Corp",
+      image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
-        title: "Unity Game Programming",
-        company_name: "Unity Learn",
-        icon: unity,
-        iconBg: "#DF01A5",
-        date: "Mar 2023 - Today",
-        points: [
-            "Create the scene flow in an application state, implement data persistence across scenes and user sessions.",
-            "Maximize code efficiency by correctly executing coding best practices and Debug performance issues.",
-            "Analyze the principal pillars of object-oriented programming. Write efficient, organized, and comprehensible code by correctly implementing the principles of object-oriented programming",
-            "Use common logic structures to control the execution of code, writen code that utilizes the various Unity APIs Implement appropriate data types and integrates into an existing system. Implementing a code style that is efficient and easy to read prototyping new concepts.",
-        ],
+      testimonial:
+        "After Justin optimized our website, our traffic increased by 50%. We can't thank him enough!",
+      name: "Lisa Wang",
+      // designation: "CTO",
+      // company: "456 Enterprises",
+      image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
-];
-
-const testimonials = [
+  ];
+  
+  const projects = [
     {
-        testimonial:
-            "",
-        name: "",
-        designation: "",
-        company: "",
-        image: "",
+      name: "Lyriks",
+      description:
+        "Web-based platform that allows users to search, play, and sing along with their favorite artists.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "rapidApi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Lyriks,
+      source_code_link: "https://github.com/threejay20/Lyriks.git",
     },
+  
     {
-        testimonial:
-            "",
-        name: "",
-        designation: "",
-        company: "",
-        image: "",
-    },
-    {
-        testimonial:
-            "",
-        name: "",
-        designation: "",
-        company: "",
-        image: "",
-    },
-];
-
-const projects = [
-    {
-        name: "E-trivial",
-        description:
-            "Accompaniment of the board game in a mobile version, made in Vue3, digitizing the questions to keep them always updated through the Trivial API.",
-        tags: [
-            {
-                name: "vue3",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "api",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: etrivial,
-        source_code_link: "https://github.com/TrivialF5/eTrivial",
+      name: "Exercise App",
+      description:
+        "Web-based platform that allows users to search, learn, and watch specific exercises to ensure maximum fitness success.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "rapidApi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Title_Exercise,
+      source_code_link: "https://github.com/threejay20/gym_exercises.git",
     },
     {
-        name: "GG Tournaments",
-        description:
-            "Game themed web application where events related to the world of e-sports can be published.",
-        tags: [
-            {
-                name: "laravel",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "mysql",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: ggt,
-        source_code_link: "https://github.com/skyrosa/joc-project",
+      name: "Finanseer",
+      description:
+        "Web application that keeps track of companies profits as well as predicts future revenue through simple Machine Learning.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Mongo-Db",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Node",
+          color: "blue-text-gradient",
+        }
+      ],
+      image: Finanseer,
+      source_code_link: "https://github.com/threejay20/finance-app.git",
     },
     {
-        name: "Vet Code",
-        description:
-            "VetCode is an application created for scheduling appointments at the reception desk of a veterinary clinic. In the application, you can create, save, edit and delete appointments that are kept reserved in a private database",
-        tags: [
-            {
-                name: "php",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "javascript",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: vet,
-        source_code_link: "https://github.com/skyrosa/VetCode",
+      name: "AdminApp",
+      description:
+        "Web application that helps manage a company's results",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Data Grid",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Material UI",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Node",
+          color: "blue-text-gradient",
+        }
+      ],
+      image: AdminApp,
+      source_code_link: "https://github.com/threejay20/react-admin",
     },
-];
-
-export { services, technologies, experiences, testimonials, projects };
+    {
+      name: "Real Estate",
+      description:
+        "A comprehensive property listing site for any Real estate broker.",
+      tags: [
+        {
+          name: "nextjs 13",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: RealEstateApp,
+      source_code_link: "https://github.com/threejay20/RealEstate.git",
+    },
+  ];
+  
+  
+  
+  
+  export { services, technologies, experiences, testimonials, projects };
