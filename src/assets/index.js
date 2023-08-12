@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import me from "./me.png";
 
 
 import css from "./tech/css.png";
@@ -29,6 +30,7 @@ import tesla from "./company/tesla.png";
 import Bell_logo from "./company/Bell_logo.png";
 import Lyriks from "./tech/Lyriks.png";
 import Title_Exercise from "./tech/Title_Exercise.png";
+ 
 
 // import carrent from "./carrent.png";
 // import jobit from "./jobit.png";
@@ -72,4 +74,5 @@ export {
   Finanseer,
   AdminApp,
   RealEstateApp,
+  me,
 };
