@@ -10,17 +10,18 @@ const Hero = () => {
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
+        <img src={me} alt='me' className='rounded-full w-44 h-48 border-4 border-pink-500'/>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, My Name Is <span className='text-[#915EFF]'>Justin</span>
+            Hello, My Name Is <span className='text-[#915EFF]'> <br className='sm:block hidden' /> Justin</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop user <br className='sm:block hidden' />
-            interfaces and web applications
+            I develop User <br className='sm:block hidden' />
+            Interfaces and web applications
           </p>
         </div>
       </div>
