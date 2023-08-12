@@ -6,6 +6,14 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 
+
+// template_9393wdk
+
+// service_kavqbj9
+
+// A1FH6fzvVTJ67bYJb
+
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -24,9 +32,9 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs.send('service_5jwborp', 'template_975xr2o', {
+    emailjs.send('service_kavqbj9', 'template_9393wdk', {
       from_name: form.name,
-      to_name: 'Scarlet Rosa',
+      to_name: 'Justin Johsnon',
       from_email: form.email,
       to_email: 'eusouscarlett@gmail.com',
       message: form.message,
