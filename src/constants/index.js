@@ -328,7 +328,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: adoptapet,
+      image: adopt,
       source_code_link: "https://adopt-pet-pearl.vercel.app",
     },
   ];
