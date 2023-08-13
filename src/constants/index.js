@@ -238,7 +238,7 @@ import {
         },
       ],
       image: Title_Exercise,
-      source_code_link: "https://github.com/threejay20/gym_exercises.git",
+      source_code_link: "https://gym-exercises-threejay20.vercel.app",
     },
     {
       name: "Finanseer",
