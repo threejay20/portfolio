@@ -22,6 +22,7 @@ import {
     Finanseer,
     AdminApp,
     RealEstateApp,
+    adoptapet,
   } from "../assets";
   
   export const navLinks = [
@@ -328,7 +329,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: adopt,
+      image: adoptapet,
       source_code_link: "https://adopt-pet-pearl.vercel.app",
     },
   ];
