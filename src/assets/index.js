@@ -7,6 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import me from "./me.png";
+import justin from "./justin.png"
 
 
 import css from "./tech/css.png";
@@ -75,4 +76,5 @@ export {
   AdminApp,
   RealEstateApp,
   me,
+  justin,
 };
