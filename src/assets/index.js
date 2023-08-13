@@ -8,6 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import me from "./me.png";
 import justin from "./justin.png"
+import adoptapet from "./adoptapet.png"
 
 
 import css from "./tech/css.png";
@@ -77,4 +78,5 @@ export {
   RealEstateApp,
   me,
   justin,
+  adoptapet,
 };
