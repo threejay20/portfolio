@@ -245,6 +245,48 @@ import {
       source_code_link: "https://gym-exercises-threejay20.vercel.app",
     },
     {
+      name: "Real Estate",
+      description:
+        "A comprehensive property listing site for any Real estate broker.",
+      tags: [
+        {
+          name: "nextjs 13",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: RealEstateApp,
+      source_code_link: "https://real-estate-6emyb9iyq-threejay20.vercel.app",
+    },
+    {
+      name: "Adopt-A-Pet",
+      description:
+        "A listing of cute animals to which are available for adoption.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: adoptapet,
+      source_code_link: "https://adopt-pet-pearl.vercel.app",
+    },
+    {
       name: "Finanseer",
       description:
         "Web application that keeps track of companies profits as well as predicts future revenue through simple Machine Learning.",
@@ -269,48 +311,8 @@ import {
       image: Finanseer,
       source_code_link: "https://github.com/threejay20/finance-app.git",
     },
-    {
-      name: "Adopt-A-Pet",
-      description:
-        "A listing of cute animals to which are available for adoption.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Node",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: adoptapet,
-      source_code_link: "https://adopt-pet-pearl.vercel.app",
-    },
-    {
-      name: "Real Estate",
-      description:
-        "A comprehensive property listing site for any Real estate broker.",
-      tags: [
-        {
-          name: "nextjs 13",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: RealEstateApp,
-      source_code_link: "https://real-estate-6emyb9iyq-threejay20.vercel.app",
-    },
+
+
     {
       name: "Lyriks",
       description:
