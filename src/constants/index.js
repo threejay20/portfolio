@@ -198,25 +198,29 @@ import {
   
   const projects = [
     {
-      name: "Lyriks",
+      name: "AdminApp",
       description:
-        "Web-based platform that allows users to search, play, and sing along with their favorite artists.",
+        "Web application that helps manage a company's results",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "rapidApi",
+          name: "Data Grid",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Material UI",
           color: "pink-text-gradient",
         },
+        {
+          name: "Node",
+          color: "blue-text-gradient",
+        }
       ],
-      image: Lyriks,
-      source_code_link: "https://github.com/threejay20/Lyriks.git",
+      image: AdminApp,
+      source_code_link: "https://react-admin-threejay20.vercel.app",
     },
   
     {
@@ -266,29 +270,25 @@ import {
       source_code_link: "https://github.com/threejay20/finance-app.git",
     },
     {
-      name: "AdminApp",
+      name: "Adopt-A-Pet",
       description:
-        "Web application that helps manage a company's results",
+        "A listing of cute animals to which are available for adoption.",
       tags: [
         {
           name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "Data Grid",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Material UI",
-          color: "pink-text-gradient",
-        },
-        {
           name: "Node",
           color: "blue-text-gradient",
-        }
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
       ],
-      image: AdminApp,
-      source_code_link: "https://react-admin-threejay20.vercel.app",
+      image: adoptapet,
+      source_code_link: "https://adopt-pet-pearl.vercel.app",
     },
     {
       name: "Real Estate",
@@ -312,25 +312,25 @@ import {
       source_code_link: "https://real-estate-6emyb9iyq-threejay20.vercel.app",
     },
     {
-      name: "Adopt-A-Pet",
+      name: "Lyriks",
       description:
-        "A listing of cute animals to which are available for adoption.",
+        "Web-based platform that allows users to search, play, and sing along with their favorite artists.",
       tags: [
         {
-          name: "React",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "Node",
-          color: "blue-text-gradient",
+          name: "rapidApi",
+          color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: adoptapet,
-      source_code_link: "https://adopt-pet-pearl.vercel.app",
+      image: Lyriks,
+      source_code_link: "https://github.com/threejay20/Lyriks.git",
     },
   ];
   
